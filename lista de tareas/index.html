@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tareas Diarias</h1>
+        <ul id="taskList">
+            
+            <!-- Aquí se añadirán las tareas -->
+        </ul>
+        <div>
+            <input type="text" id="newTask" placeholder="Nueva tarea...">
+            <label for="day">Día:</label>
+            <select id="day">
+                <option value="lunes">Lunes</option>
+                <option value="martes">Martes</option>
+                <option value="miercoles">Miércoles</option>
+                <option value="jueves">Jueves</option>
+                <option value="viernes">Viernes</option>
+                <option value="sabado">Sábado</option>
+                <option value="domingo">Domingo</option>
+            </select>            
+            <button id="addTaskButton">Agregar Tarea</button>
+        </div>
+    </div>
+   
+    <script src="app.js"></script>
+</body>
+</html>
